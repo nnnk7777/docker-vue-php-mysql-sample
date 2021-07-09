@@ -45,6 +45,8 @@ services:
     build: ./client
     ports:
       - "7100:80"
+    depends_on:
+      - api
     networks:
       - sample
 
