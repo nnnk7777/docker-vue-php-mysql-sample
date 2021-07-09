@@ -18,8 +18,22 @@
 ```
 .
 ├── /api
+│   ├── /src
+│   ├── Dockerfile
+│   └── php.ini
 ├── /client
+│   ├── /src
+│   ├── ...
+│   ├── Dockerfile
+│   ├── default.conf
+│   └── nginx.conf
 ├── /db
+│   ├── /data
+│   ├── /init
+│   │   └── 1_create_table.sql
+│   ├── ...
+│   ├── Dockerfile
+│   └── my.conf
 ├── .env
 ├── README.md
 └── docker-compose.yml
