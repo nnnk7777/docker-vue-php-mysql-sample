@@ -7,3 +7,15 @@
 - PHP + Apache
 - MySQL
 - phpMyAdmin
+
+**ディレクトリ構成**
+
+```
+.
+├── /api
+├── /client
+├── /db
+├── .env
+├── README.md
+└── docker-compose.yml
+```
