@@ -24,3 +24,15 @@
 ├── README.md
 └── docker-compose.yml
 ```
+
+**.env**
+```
+MYSQL_USER=dog
+MYSQL_PASSWORD=***********
+MYSQL_ROOT_PASSWORD=***********
+MYSQL_DATABASE=test_db
+PMA_ARBITRARY=1
+PMA_HOST=mysql
+PMA_USER=dog
+PMA_PASSWORD=***********
+```
