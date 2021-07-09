@@ -31,6 +31,7 @@ services:
   api:
     container_name: sample-api
     build: ./api
+    env_file: ./.env
     volumes:
       - ./api/src:/var/www/html
     ports:
