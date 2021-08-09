@@ -43,7 +43,9 @@ services:
 
   client:
     container_name: sample-vue
-    build: ./client
+    build:
+      context: ./client
+      dockerfile: prod.Dockerfile
     ports:
       - "7200:80"
     volumes:
