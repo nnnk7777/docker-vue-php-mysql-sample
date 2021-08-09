@@ -1,8 +1,9 @@
 ### 🐳 Docker 勉強会用サンプル（仮）
 
 #### TODO
-- [ ] devとprodを分ける
-- [ ] client側の実装
+
+- [ ] dev と prod を分ける
+- [ ] client 側の実装
 - [ ] で、これをどう説明するかを考える・・・・
 
 #### 🛠️ 使用言語・ツールなど
@@ -40,6 +41,7 @@
 ```
 
 **.env**
+
 ```
 MYSQL_USER=dog
 MYSQL_PASSWORD=***********
