@@ -8,3 +8,6 @@ CREATE TABLE IF NOT EXISTS answers (
     qid INT NOT NULL,
     answer TEXT NOT NULL
 );
+
+INSERT INTO answers (uid, qid, answer) VALUES(1, 2, "test");
+INSERT INTO answers (uid, qid, answer) VALUES(2, 3, "test2");
