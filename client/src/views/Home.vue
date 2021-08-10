@@ -15,7 +15,6 @@ export default {
   },
   created() {
     this.$axios.get(`/api/getAnswers.php`).then((res) => {
-      // this.$axios.get(`${window.location.href}api/getAnswers.php`).then((res) => {
       console.log(res);
       this.message = res.data;
     });

@@ -47,7 +47,7 @@ services:
       context: ./client
       dockerfile: dev.Dockerfile
     ports:
-      - "7200:80"
+      - "7200:8080"
     volumes:
       - ./client:/app
     depends_on:
